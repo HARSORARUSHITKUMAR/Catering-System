@@ -1,0 +1,27 @@
+const servicesData = [
+    {
+      id: 1,
+      name: "Sandwiches",
+      products: [
+        { image: "image1.jpg", title: "NYC Sandwich", description: "A Real NYC Classic" },
+        { image: "image2.jpg", title: "Grilled Cheese", description: "Cheesy and delicious" },
+      ],
+    },
+    {
+      id: 2,
+      name: "Steaks",
+      products: [
+        { image: "image3.jpg", title: "T-Bone Steak", description: "Perfectly grilled" },
+        { image: "image4.jpg", title: "Ribeye Steak", description: "Juicy and flavorful" },
+      ],
+    },
+    {
+      id: 3,
+      name: "Fruits",
+      products: [
+        { image: "image5.jpg", title: "Cherries", description: "Fresh cherries" },
+        { image: "image6.jpg", title: "Apple", description: "Crisp and fresh" },
+      ],
+    },
+  ];
+  

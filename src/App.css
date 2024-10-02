@@ -1,0 +1,202 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* src/App.css */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+.fcolor {
+  color: black;
+}
+.carasoul_home {
+  max-width: 100%;
+  min-width: 500px;
+}
+.carasoul-container {
+  position: relative;
+  display: inline-block;
+}
+.text-carasoul {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #000000;
+  border-radius: 5px;
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  font-size: 36px;
+}
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.about-img {
+  width: 40%; /* Adjust as needed */
+  height: auto;
+  margin-right: 5rem; /* Add spacing between the image and the text */
+  padding: 15px;
+}
+.about-h1,
+.about-h5 {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.about-h5 {
+  padding-top: 3rem;
+}
+.about-first-ptag {
+  font-size: 18px;
+  padding-top: 4rem;
+}
+.span-tag-about {
+  color: #000;
+  background-color: #f1f1f1;
+}
+.about-second-ptag {
+  color: #757575;
+  font-size: 18px;
+  padding-top: 3rem;
+}
+.about-content {
+  width: 60%;
+}
+.contact-h1 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+.contact-container {
+  padding: 85px;
+}
+.con-f-ptag {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+.first-con-ptag {
+  color: #607d8b;
+}
+.con-in-f {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.btn-con {
+  color: #000;
+  background-color: #f1f1f1;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: none;
+}
+.menu-h1 {
+  text-align: center;
+  margin-left: 7rem;
+  box-sizing: border-box;
+}
+.menu-h4-1,.menu-h4-2,.menu-h4-3,.menu-h4-4,.menu-h4-5{
+  font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+.menu-p-1,.menu-p-2,.menu-p-3,.menu-p-4,.menu-p-5
+{
+  color: #757575;
+}
+.slider-container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.product-card {
+  text-align: center;
+  padding: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.slick-slide {
+  margin: 0 10px;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+}
+.slider-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.slider-item {
+  text-align: center;
+  padding: 10px;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slick-prev, .slick-next {
+  color: black; /* Customize color */
+  z-index: 1;
+}
+
+.slick-dots li button:before {
+  color: black; /* Customize the dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: red; /* Active dot color */
+}
