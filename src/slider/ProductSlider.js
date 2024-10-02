@@ -1,27 +1,36 @@
-// ProductSlider.js
-import React from 'react';
-import Slider from "react-slick";
+import React from "react";
+import ConSlider from "./ConSlider";
 
-const ProductSlider = ({ products }) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+const productData = [
+  {
+    image: "../public/images/p1.jpg",
+    title: "The Perfect Sandwich",
+    description: "A Real NYC Classic",
+  },
+  {
+    image: "image2.jpg",
+    title: "Let Me Tell You About This Steak",
+    description: "A delightful meal",
+  },
+  {
+    image: "image3.jpg",
+    title: "Cherries, Interrupted",
+    description: "Fresh cherries in a bag",
+  },
+  {
+    image: "image4.jpg",
+    title: "Once Again, Robust Wine and Vegetable Pasta",
+    description: "A pairing of wine and pasta",
+  },
+  // Add more products as needed
+];
 
+const App = () => {
   return (
-    <Slider {...settings}>
-      {products.map((product, index) => (
-        <div key={index} className="product-slide">
-          <img src={product.image} alt={product.title} />
-          <h4>{product.title}</h4>
-          <p>{product.description}</p>
-        </div>
-      ))}
-    </Slider>
+    <div>
+      <ConSlider products={productData} />
+    </div>
   );
 };
 
-export default ProductSlider;
+export default App;
