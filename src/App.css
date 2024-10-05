@@ -40,7 +40,7 @@
 /* src/App.css */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 header{
-  position: sticky;
+  position: "sticky";
   top: 0;
   z-index: 1000;
   padding: 10px 0;

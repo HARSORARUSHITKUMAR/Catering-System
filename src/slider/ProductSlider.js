@@ -3,22 +3,22 @@ import ConSlider from "./ConSlider";
 
 const productData = [
   {
-    image: "../public/images/p1.jpg",
-    title: "The Perfect Sandwich",
+    image: "images/p1.jpg",
+    title: "Product-1",
     description: "A Real NYC Classic",
   },
   {
-    image: "image2.jpg",
+    image: "images/p2.jpg",
     title: "Let Me Tell You About This Steak",
     description: "A delightful meal",
   },
   {
-    image: "image3.jpg",
+    image: "images/p3.jpg",
     title: "Cherries, Interrupted",
     description: "Fresh cherries in a bag",
   },
   {
-    image: "image4.jpg",
+    image: "images/p4.jpg",
     title: "Once Again, Robust Wine and Vegetable Pasta",
     description: "A pairing of wine and pasta",
   },
