@@ -1,41 +1,47 @@
 .slider-container {
-    position: relative; /* Position relative for absolute positioning of arrows */
-    overflow: hidden;
-  }
-  
-  .product-card {
-    position: relative; /* Relative positioning to position arrows inside */
-    text-align: center; /* Center content in each card */
-  }
-  
-  .product-image {
-    width: auto; /* Make image responsive */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  /* Style for navigation arrows */
-  .arrow {
-    /* background: rgba(255, 255, 255, 0.7); White background with slight transparency */
-    border: none; /* No border */
-    font-size: 30px; /* Font size */
-    cursor: pointer; /* Change cursor to pointer */
-    position: absolute; /* Absolute positioning */
-    top: 10%; /* Center vertically */
-    /* transform: translateY(-50%); Adjust for vertical centering */
-    /* z-index: 10; Keep above other elements */
-    /* padding: 10px; Padding for clickable area */
-    /* border-radius: 50%; Rounded buttons */
-  }
-  
-  /* Position the left arrow */
-  .arrow.left {
-    left: 10px; /* Position on the left */
-    top: 15rem;
-  }
-  
-  /* Position the right arrow */
-  .arrow.right {
-    right: 10px; /* Position on the right */
-    top: 15rem;
-  }
-  
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.product-card {
+  text-align: center;
+  /* padding: 0; Remove padding inside the cards */
+  /* margin: 0; Remove margin inside the cards */
+}
+
+.product-image {
+  width: 100%; /* Image fills the container */
+  height: auto; /* Keep aspect ratio */
+  margin: 0 auto;
+  object-fit: cover;
+  max-width: 500px; /* Ensure no extra gap in image width */
+}
+
+/* Fix slick slide gap */
+.slick-slide {
+  padding: 0 !important; /* Override slick default padding */
+  margin: 0 !important; /* Override slick default margin */
+}
+
+/* Arrow style */
+.arrow {
+  font-size: 40px; /* Bigger arrow */
+  cursor: pointer;
+  position: absolute;
+  top: 27%; /* Center vertically */
+  /* transform: translateY(-50%); */
+  background: none;
+  border: none;
+  color: black;
+  /* z-index: 100; Keep above other elements */
+}
+
+.arrow.left {
+  left: 5px; /* Small gap for arrow on the left */
+}
+
+.arrow.right {
+  right: 5px; /* Small gap for arrow on the right */
+}

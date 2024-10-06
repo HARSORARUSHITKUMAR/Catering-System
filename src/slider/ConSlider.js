@@ -82,7 +82,10 @@ const ConSlider = ({ products }) => {
     speed: 500,  // Speed of slide transition
     slidesToShow: 4,  // Number of slides to show at once
     slidesToScroll: 1,  // Number of slides to scroll per swipe
+    autoplay: true,  // Enable auto-scrolling
+    autoplaySpeed: 2000,
     responsive: [
+
       {
         breakpoint: 1024,
         settings: {
