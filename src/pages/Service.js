@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductSlider from '../slider/ProductSlider';
-import Header from "../components/Header";
+// import Header from "../components/Header";
 
 
 const Service = () => {
@@ -39,7 +39,7 @@ const Service = () => {
 
   return (
     <div className="service-section" id="service"> {/* Anchor link to scroll here */}
-    <Header />
+    {/* <Header /> */}
       <h2>Our Services</h2>
       <p>Explore our range of delicious offerings.</p>
 

@@ -41,7 +41,7 @@ const Home = () => {
                         </ScrollLink>
                     </li>
                     <li className="nav-item">
-                        <RouterLink to="/service" className="nav-link">Service</RouterLink>
+                        <RouterLink to="/service" className="nav-link" style={{ cursor: 'pointer' }}>Service</RouterLink>
                     </li>
                 </ul>
             </header>
